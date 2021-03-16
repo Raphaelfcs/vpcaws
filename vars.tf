@@ -53,15 +53,3 @@ variable ENV {}
 
 variable cluster-name {}
 
-variable CIDR_VPN_DESTINATION_office_0 {}
-
-
-variable CIDR_VPN_DESTINATION_office_1 {
-}
-
-variable CIDR_VPN_DESTINATION_office_2 {
-}
-
-variable CIDR_VPN_DESTINATION_office_3 {
-}
-
