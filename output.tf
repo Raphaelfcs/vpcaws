@@ -26,18 +26,6 @@ output "aws_nat_gateway" {
   value = "${aws_nat_gateway.nat-gw.id}"
 }
 
-output "aws_vpn_gateway" {
-  value = "${aws_vpn_gateway.vpn_gw.id}"
-}
-
-output "aws_vpn_connection" {
-  value = "${aws_vpn_connection.main.id}"
-}
-
-output "aws_vpn_connection_route" {
-  value = "${aws_vpn_connection_route.office-0.id}"
-}
-
 output "subnet-dmz-0" {
   value = "${aws_subnet.vpc-public-0.id}"
 }
